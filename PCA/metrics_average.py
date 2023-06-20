@@ -7,7 +7,7 @@ def get_args():
     parser = argparse.ArgumentParser(prog="extract_subset", description="Extract taxonomic subset.")
     parser.add_argument("Workingdir", help="directory containing the whole dataset")
     parser.add_argument("Outputdir",
-                        help="Path to output directory (will be created if it doesn't exist)", default=os.getcwd())
+                        help="Path to output directory ", default=os.getcwd())
     parser.add_argument("Taxopath",
                         help="Path to taxonomy file")
     return parser.parse_args()
