@@ -1,0 +1,23 @@
+species,Clade,Human Pathogenicity,Genome ploidie,Hybride,Analyse PCA
+Candida albicans,CTG,Commensal,diploid,yes,x
+Candida auris,CTG,yes,diploid,,x
+Candida bracarensis,CTG,yes,diploid,,x
+Candida castellii,CTG,no,,,x
+Candida dubliniensis,CTG,yes,diploid,,x
+Candida famata,CTG,yes,diploid,,x
+Candida fermentati,CTG,yes,diploid,yes,x
+Candida glabrata,CTG,,,,x
+Candida guilliermondii,CTG,no,,,x
+Candida lusitaniae,CTG,yes,,,x
+Candida metapsilosis,CTG,yes,haploid,,x
+Candida nivariensis,CTG,,,,x
+Candida orthopsilosis,CTG,no,,,x
+Candida parapsilosis,CTG,yes,,,x
+Candida sojae,CTG,no,haploid,,x
+Candida tenuis,CTG,no,haploid,,x
+Candida tropicalis,WGD,Commensal,haploid,,x
+Debaryomyces hansenii,WGD,yes,,,x
+Lodderomyces elongisporus,WGD,no,,,x
+Metschnikowia fructicola,WGD,yes,,,x
+Nakaseomyces bacillisporus,WGD,no,,,x
+Nakaseomyces delphensis,WGD,,,,x
