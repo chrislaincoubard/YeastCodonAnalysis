@@ -12,10 +12,10 @@ from sklearn.utils import resample
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Extract taxonomic subset.")
+    parser = argparse.ArgumentParser(description="Perform classification on the data set with multiple conditions")
     parser.add_argument("Inputdir", help="directory containing the whole dataset")
     parser.add_argument("Outputdir",
-                        help="Path to output directory (will be created if it doesn't exist)")
+                        help="Path to output directory ")
     return parser.parse_args()
 
 def test_model(model, x_train, y_train, x_test, y_test, df, name):
