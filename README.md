@@ -22,7 +22,7 @@ optional arguments:
 
 # PCA
 
-metrics_average.py : 
+- metrics_average.py : 
 
 usage: extract_subset [-h] Workingdir Outputdir Taxopath
 
@@ -36,7 +36,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
-PCA.R :
+- PCA.R :
 
 usage: extract_subset [-h] Workingdir Outputdir Taxopath Subset_level Subset_name groups
 
@@ -53,7 +53,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
-PCA_CANDIDA.R :
+- PCA_CANDIDA.R :
 
 usage: extract_subset [-h] Workingdir Outputdir Candida
 
@@ -69,7 +69,7 @@ optional arguments:
 
 # Classification
 
-prepare_reg_log.py :
+- prepare_reg_log.py :
 
 usage: prepare log reg [-h] [-f [FAMILY ...]] [-s [SPECIES ...]] [-gc [GENECODETYPE ...]] Workingdir Outputdir Taxopath
 
@@ -90,7 +90,7 @@ optional arguments:
                         Choose which genecode type you want to include (default = W)
 
 
-reglog.py:
+- reglog.py:
 
 usage: reglog.py [-h] Inputdir Outputdir
 
@@ -103,7 +103,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
-model_pathos.py :
+- model_pathos.py :
 
   usage: model_pathos.py [-h] File Outputdir
 
